@@ -1,12 +1,20 @@
-# include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int a,b,c;
-printf("enter the first nummber: ");
-scanf("%d",&a);
-printf("enter the second nummber: ");
-scanf("%d",&b);
-c=(a>b)?a:b;
-printf("greater number=%d",c);
-return 0;
-}
+ float price,final;
+ printf("enter the price");
+ scanf("%f", & price);
+ if(prince>=5000)
+ {
+ printf("final price %f", (price - price*0.2));
+ }
+ else if ((price>2000)&&(price<5000))
+ {
+    printf("final price %f",(price-price*0.1));
+ }
+ else
+ {
+  printf("final price %f", (price-price*0.5));
+  return 0;
+ }        
+
